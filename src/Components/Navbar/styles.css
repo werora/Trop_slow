@@ -32,6 +32,7 @@
 }
 
 .right-container {
+  position: relative;
   width: 120px;
   height: 60px;
   margin-right: 10px;
@@ -54,4 +55,34 @@
   font-weight: 800;
   color: #FFFFFF;
   margin-bottom: 2px;
+}
+
+
+/* Nowy styl dla HTPandSET */
+.HTPandSET-container {
+  position: absolute; /* Ustawiamy na absolutne pozycjonowanie względem rodzica */
+  top: -80px; /* Przesunięcie do góry względem rodzica */
+  width: 90px;
+  height: 60px;
+  background-color: #F18F01;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #A31621;
+}
+
+/* Nowy styl dla smallHTP i smallSET */
+.smallHTP,
+.smallSET {
+  width: 90px;
+  height: 25px;
+  background-color: #226F54;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  color: #ffffff;
 }
