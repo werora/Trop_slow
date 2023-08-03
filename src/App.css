@@ -1,0 +1,20 @@
+/* src/App.css */
+
+/* Ustawiamy wielkość całej aplikacji na stałe */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Dodajemy otoczkę dla całej strony */
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 355px; /* Zmniejszamy o 10px na każdą stronę, aby obramówka była wewnątrz aplikacji */
+  height: 647px; /* Zmniejszamy o 10px na każdą stronę, aby obramówka była wewnątrz aplikacji */
+  margin: 21px; /* Odstęp od zewnętrznego kontenera */
+}
+
