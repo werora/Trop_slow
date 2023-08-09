@@ -1,0 +1,41 @@
+.setting-container {
+    background-color: #F18F01;
+    width: 327px;
+    height: 455px;
+    border-radius: 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .primary {
+    /* Dodaj odpowiednią stylizację dla wariantu "primary" */
+  }
+  
+  .secondary {
+    /* Dodaj odpowiednią stylizację dla wariantu "secondary" */
+  }
+  
+  .game {
+    /* Dodaj odpowiednią stylizację dla wariantu "game" */
+  }
+  
+  .logo {
+    /* Stylizacja dla logo (na górze) */
+  }
+  
+  .content {
+    /* Stylizacja dla treści i dzieci (children) */
+  }
+  
+  .description {
+    /* Stylizacja dla opisu */
+  }
+  
+  .children {
+    /* Stylizacja dla kontentu umieszczonego w children */
+  }
+  
