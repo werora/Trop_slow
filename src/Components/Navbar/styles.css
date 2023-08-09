@@ -6,6 +6,11 @@
   background-color: #FFFFFF;
   padding: 10px;
   border-radius: 5px;
+  position: fixed; /* Zmiana na fixed, aby utrzymać na dole strony */
+  bottom: 0; /* Ustawienie na dole strony */
+  width: 100%; /* Pełna szerokość strony */
+  left: 0; /* Pozycjonowanie na lewo */
+  right: 0; /* Pozycjonowanie na prawo */
 }
 
 .left-container {

@@ -1,5 +1,5 @@
 
-.team-container {
+.category-container {
     background-color: #226f54;
     width: 327px;
     height: 455px;
@@ -12,7 +12,7 @@
     text-align: center;
   }
   
-  .team-title {
+  .category-title {
     color: white;
     width: 267px;
     height: 60px;
@@ -24,7 +24,7 @@
     border-radius: 5px; /* Zaokrąglenie rogów */
   }
   
-  .team-input {
+  .category-buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +32,7 @@
     margin-top: 40px;
   }
   
-  .team-input {
+  .category-button {
     width: 267px;
     height: 40px;
     background-color: #A31621;
@@ -43,7 +43,7 @@
     margin: 5px 0;
   }
   
-  .team-input:hover {
+  .category-button:hover {
     background-color: #F18F01;
   }
   

@@ -1,0 +1,70 @@
+body {
+  background-color: #F18F01;
+}
+
+.how-to-play-container {
+    background-color: #F18F01;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 30px;
+    width: 327px;
+    height: 455px;
+  }
+  
+  .logo {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  
+  .primary {
+    background-color: #226F54;
+  }
+  
+  .secondary {
+    background-color: #007bff;
+  }
+  
+  .game {
+    background-color: #A31621;
+  }
+  
+  .content-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+  
+  /* styles.css */
+.how-to-play-logo {
+  display: block;
+  margin: 0 auto 20px; /* Dodatkowy odstęp pod logiem */
+  max-width: 150px; /* Dopasuj szerokość loga do preferencji */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #5e944e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tytuljakgrac {
+  text-align: center;
+  font-size: 24px; /* Dostosuj rozmiar czcionki według potrzeb */
+  margin-bottom: 10px; /* Odstęp od dolnej części elementu */
+}
+
+
